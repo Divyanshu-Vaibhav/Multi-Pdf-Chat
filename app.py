@@ -65,11 +65,6 @@ def main():
     if user_question:
         handle_userinput(user_question)
 
-
-
-
-
-
     with st.sidebar:
         st.subheader("Your documents")
         pdf_docs = st.file_uploader("Upload your docs here and click on Process",accept_multiple_files=True)
